@@ -115,7 +115,7 @@ function renderHistory(mappedHistory) {
   
   mappedHistory.movies.forEach(function(movie, index) {
     const entryNode = document.createElement('li')
-    entryNode.innerHTML = '<a href="mpv://' + movie.file.full + '">' + movie.data.name + '</a><br /><span>' + formatDate(movie.date_time) + '</span>'
+    entryNode.innerHTML = '<a href="mpv://' + movie.file.path + '">' + movie.data.name + '</a><br /><span>' + formatDate(movie.date_time) + '</span>'
 
     listNode.appendChild(entryNode)
   })
@@ -147,11 +147,11 @@ function renderHistory(mappedHistory) {
       if (currentEpisode > highestEpisode) {
         highestEpisode = currentEpisode
         highestPrefix = entry.data.prefix
-        highestPath = entry.file.full
+        highestPath = entry.file.path
       }
 
       const entryNode = document.createElement('li')
-      entryNode.innerHTML = '<a href="mpv://' + entry.file.full + '">' + entry.data.name + '</a><br /><span>' + formatDate(entry.date_time) + '</span>'
+      entryNode.innerHTML = '<a href="mpv://' + entry.file.path + '">' + entry.data.name + '</a><br /><span>' + formatDate(entry.date_time) + '</span>'
       
       listNode.appendChild(entryNode)
     })

@@ -106,7 +106,7 @@ function selectMenuEntry() {
     if (selectedEntry) {
       hideMenu()
       selectedEntryIndex = 0
-      mp.commandv('loadfile', selectedEntry.file.full)
+      mp.commandv('loadfile', selectedEntry.file.path)
     }
   }
 }
