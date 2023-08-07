@@ -1,0 +1,8 @@
+.DS_Store
+.vscode
+
+node_modules
+
+config.json
+mpv-history/history.json
+mpv-history/error.json

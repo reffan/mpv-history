@@ -1,0 +1,54 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color-scheme: dark;
+  font-size: 75%;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+body {
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+header {
+  margin-bottom: 4rem;
+}
+
+main {
+  display: flex;
+}
+
+main > section {
+  flex: 1;
+}
+
+section > div {
+  padding: 2rem;
+}
+
+summary {
+  margin-bottom: 1rem;
+}
+
+summary > h3 {
+  display: inline-block;
+  cursor: pointer;
+}
+
+summary > span {
+  padding-left: 1.5rem;
+}
+
+ul {
+  margin-bottom: 4rem;
+  padding-left: 4rem;
+}
+
+li {
+  margin-bottom: 1rem;
+}

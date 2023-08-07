@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPV History</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>MPV History</h1>
+      <label>
+        Filter duplicates?
+        <input type='checkbox' id='filtered' onclick='init()' checked>
+      </label>
+    </header>
+    <main>
+      <section>
+        <h2>Movies</h2>
+        <div id='movies-list'></div>
+      </section>
+      <section>
+        <h2>Series</h2>
+        <div id='series-list'></div>
+      </section>
+    </main>
+    <script src='./script.js'></script>
+  </body>
+</html>
