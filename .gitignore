@@ -4,5 +4,5 @@
 node_modules
 
 config.json
-mpv-history/history.json
-mpv-history/error.json
+history.json
+error.json

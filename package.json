@@ -1,0 +1,30 @@
+{
+  "name": "mpv-history",
+  "version": "v2023082901",
+  "description": "An extension for the MPV video player storing the recently played files and displaying them through MPV's OSD and a Web UI.",
+  "main": "dist/mpv-history.js",
+  "scripts": {
+    "dev": "npx tsc -w",
+    "build": "./build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reffan/mpv-history.git"
+  },
+  "keywords": [
+    "mpv",
+    "mpv-script"
+  ],
+  "author": "Reffan Liefde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reffan/mpv-history/issues"
+  },
+  "homepage": "https://github.com/reffan/mpv-history#readme",
+  "devDependencies": {
+    "@types/mpv-script": "^0.32.2",
+    "@types/node": "^20.4.9",
+    "prettier": "3.0.1",
+    "typescript": "^5.1.6"
+  }
+}

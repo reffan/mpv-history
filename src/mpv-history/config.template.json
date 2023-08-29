@@ -1,0 +1,22 @@
+{
+  "file": {
+    "history": "history.json",
+    "error": "error.json"
+  },
+  "store": {
+    "pathSplitChar": "/",
+    "moviesPath": "...",
+    "seriesPath": "..."
+  },
+  "menu": {
+    "toggleKey": "h",
+    "timeoutInSeconds": 6,
+    "maxEntries": 24,
+    "fontSize": 18
+  },
+  "web": {
+    "refreshInSeconds": 30,
+    "maxEntries": 120,
+    "numExpandedSeries": 3
+  }
+}
